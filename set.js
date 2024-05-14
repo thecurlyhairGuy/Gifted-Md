@@ -9,14 +9,14 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'Baldwin;;;',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "𝗞𝗜𝗡𝗚 𝗕𝗔𝗟𝗗𝗪𝗜𝗡 𝗜𝗩❤️🤚🏼",
-    NUMERO_OWNER : process.env.OWNER_NUMBER || "254762016957,254728782591", 
+    OWNER_NAME: process.env.OWNER_NAME || "𝗞𝗜𝗡𝗚 𝗕𝗔𝗟𝗗𝗪𝗜𝗡 𝗜𝗩🤚🏼",
+    NUMERO_OWNER : process.env.OWNER_NUMBER || "2347086606304", 
              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
 AUTOREAD_MESSAGES: process.env.AUTO_READ_MESSAGES || "no",
 CHATBOT: process.env.CHAT_BOT || "no",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
-    BOT : process.env.BOT_NAME || 'ɢɪғᴛᴇᴅ-ᴍᴅ',
+    BOT : process.env.BOT_NAME || '𝗞𝗜𝗡𝗚 𝗕𝗔𝗟𝗗𝗪𝗜𝗡 𝗜𝗩❤️🤚🏼',
     OPENAI_API_KEY : process.env.OPENAI_API_KEY || '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',
     URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/10ad6c01f7d3c47488a5b.mp4,https://telegra.ph/file/7cc2fd98aa7d379b7d6a6.mp4,https://telegra.ph/file/d057f43a77032bd6d8fb7.mp4,https://telegra.ph/file/224fe86f0adb38cf01726.mp4,https://telegra.ph/file/8bea55fa7666a3d092708.mp4,https://telegra.ph/file/b8d67c23456d2e62a4975.mp4,https://telegra.ph/file/becd7d1994ec7acc631bd.mp4,https://telegra.ph/file/b56856c416d041c853620.mp4,https://telegra.ph/file/ca1c32d71d33ffccf35ae.mp4,https://telegra.ph/file/aa9ebbb4fab8701138a67.mp4,https://telegra.ph/file/282a6204075b509f35c9b.mp4',
     MODE: process.env.PUBLIC_MODE || "no",
